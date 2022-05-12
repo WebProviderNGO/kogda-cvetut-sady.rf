@@ -1,31 +1,36 @@
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: rgba(248, 248, 248, 0.5);
-  }
+}
 
-.uk-dark .uk-navbar-nav > li > a,
-#offcanvas-nav-primary .uk-nav-primary > li > a {
+.uk-dark .uk-navbar-nav>li>a,
+#offcanvas-nav-primary .uk-nav-primary>li>a {
     color: #262262;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.uk-dark .uk-navbar-nav > li:hover > a {
+.uk-dark .uk-navbar-nav>li:hover>a {
     color: black;
 }
 
+.uk-navbar-nav > li.uk-active > a {
+    color: black;
+  }
+
 .uk-logo {
     font-size: 1.25rem;
-  }
+}
 
 .uk-logo,
 .uk-navbar-toggle {
     color: black;
+    font-weight: bold;
 }
 
 .uk-offcanvas-bar {
     background: white;
-  }
+}
 
-  .uk-offcanvas-bar .uk-close {
-      color: black;
-  }
+.uk-offcanvas-bar .uk-close {
+    color: black;
+}

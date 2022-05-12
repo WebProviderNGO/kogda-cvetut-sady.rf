@@ -11,9 +11,19 @@ html {
 }
 
 html,
+h3,
+h4 {
+    color: black;
+}
+
+html,
 .uk-dark .uk-navbar-nav>li>a,
-.HomeBanner .uk-heading-xlarge,
-.uk-logo {
+.uk-heading-xlarge,
+.uk-logo,
+.uk-heading-small,
+.uk-h1,
+h3,
+h4 {
     font-family: 'Noto Serif', serif;
 }
 
@@ -33,6 +43,11 @@ html,
     font-weight: 700;
 }
 
-.uk-dark .uk-navbar-nav > li > a > span{
+.uk-dark .uk-navbar-nav>li>a>span {
     color: black;
+}
+
+main .uk-heading-small {
+    color: black;
+    font-weight: 700;
 }
