@@ -1,0 +1,61 @@
+@media (min-width:300px) {
+    .HomeBanner .uk-heading-small {
+        -webkit-text-stroke: none;
+        font-size: 1.5rem;
+    }
+
+    .HomeBanner .uk-heading-xlarge {
+        font-size: 2rem;
+        -webkit-text-stroke: 1.25px white;
+    }
+
+    .HomeBanner .uk-h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width:640px) {
+    .HomeBanner .uk-heading-small {
+        -webkit-text-stroke: 1.25px white;
+        font-size: 1.75rem;
+    }
+    .HomeBanner .uk-heading-xlarge {
+        font-size: 3rem;
+        -webkit-text-stroke: 1.5px white;
+    }
+    .HomeBanner .uk-h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:960px) {}
+
+@media (min-width:1200px) {
+    .HomeBanner .uk-heading-small {
+        font-size: 2.25rem;
+        -webkit-text-stroke: 1.5px white;
+    }
+
+    .HomeBanner .uk-heading-xlarge {
+        font-size: 6rem;
+        -webkit-text-stroke: 2px white;
+    }
+
+    .HomeBanner .uk-h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1600px) {
+    .HomeBanner .uk-heading-small {
+        font-size: 3.25rem;
+    }
+
+    .HomeBanner .uk-heading-xlarge {
+        font-size: 8rem;
+    }
+
+    .HomeBanner .uk-h1 {
+        font-size: 2.25rem;
+    }
+}

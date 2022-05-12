@@ -1,0 +1,38 @@
+@import "uikit-reset.css";
+@import "responsive.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    --PrimaryColor: #ada1ed;
+    --SecondaryColor: #fbda0c;
+    background-color: var(--PrimaryColor);
+    letter-spacing: 1.25px;
+}
+
+html,
+.uk-dark .uk-navbar-nav>li>a,
+.HomeBanner .uk-heading-xlarge,
+.uk-logo {
+    font-family: 'Noto Serif', serif;
+}
+
+.HomeBanner .uk-h2 {
+    color: #262262;
+    font-weight: 700;
+}
+
+.HomeBanner .uk-heading-xlarge {
+    color: #262262;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.HomeBanner .uk-h1 {
+    color: #9a2261;
+    font-weight: 700;
+}
+
+.uk-dark .uk-navbar-nav > li > a > span{
+    color: black;
+}
